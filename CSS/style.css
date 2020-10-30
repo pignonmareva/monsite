@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Staatliches&family=Vampiro+One&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+@import url("components/presentation.css");
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: font-family: 'Staatliches', cursive;
+	margin: 0px;
+}
+
+h3 {
+	flex-grow 1;
+	padding-left: 20px;
+	font-size: 18px;
+	color: white;
+}
+
+h2 {
+	text-shadow: 0.1em 0.1em 0.2em grey;
+	color: black;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 0.1em 0.1em 0.2em grey;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h4 {
+	flex-grow 1;
+	font-size: 30px;
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+a {
+  color:  grey;
+  text-decoration: none;
+  transition: color 1s ease;
+  size: 30px;
+}
+
+a:hover {
+  color: #608B86;
+  text-decoration: none;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+
+#follow {
+	text-align: center;
+}
+
+.list-inline i {
+	font-size: 80px;
+	text-align: center;
+}

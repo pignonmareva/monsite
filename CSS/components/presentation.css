@@ -1,0 +1,32 @@
+.presentation {
+background-color: #608B86;
+color: white;
+padding: 30px;
+padding-left: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+box-shadow: 0px 10px 300px rgba(0,0,0,0.3);
+border-radius: 6px;
+margin: 10px;
+flex-basis: 350px;
+flex-grow: 100;
+text-align: left auto;
+line-height: 1.5;
+}
+
+
+.presentation img {
+	width: 100px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.presentation h5 {
+	flex-grow 1;
+	size: 25px;
+	padding-left: 20px;
+	font-size: 10px;
+	color: white;
+	text-align: justify;
+}
